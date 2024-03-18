@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
-:root{
+:root {
     --cor-de-fundo: #1E1E1E;
     --verde: #6FFF57;
     --branco: #FFFFFF;
@@ -9,14 +9,14 @@
     --texto-fundo: rgba(58, 55, 94, 0.3);
 }
 
-body{
+body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);
-    font-family: "Chakra Petch", sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 
-.conteudo-principal{
+.conteudo-principal {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,19 +26,19 @@ body{
     margin: 0 auto;
 }
 
-.titulo-principal{
+.titulo-principal {
     text-align: left;
     width: 100%;
     font-size: 32px;
 }
 
-.conteudo-principal span{
-    color: var(--verde)
+.titulo-principal span {
+    color: var(--verde);
 }
 
 
-.botao{
-    font-family: "Crakra Petch", sans-serif;
+.botao {
+    font-family: 'Chakra Petch', sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
@@ -64,18 +64,18 @@ body{
 .botao.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
-    }
-   
-    .abas-textos{
-        background-color: var(--texto-fundo);
-        padding: 40px;
-        border-radius: 0 0 40px 40px;
-    }     
-   .aba-conteudo.ativo{
-    display: block;
-   }
-    
-   .aba-conteudo{
+}
+
+.abas-textos{
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+.aba-conteudo.ativo{
+    display:block;
+}
+
+.aba-conteudo{
     display: none;
 }
 
@@ -106,4 +106,3 @@ body{
         border-radius: 0 40px 0 0;
     }
 }
-
